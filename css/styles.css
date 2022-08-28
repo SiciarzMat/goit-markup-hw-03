@@ -12,7 +12,7 @@ body {
   color: var(--gray);
   background-color: var(--white);
 }
-header {
+.header {
   width: 100%;
   background-color: var(--white);
   border-bottom: 1px solid #ececec;
@@ -74,14 +74,12 @@ header {
   margin-right: 46px;
 }
 .portfolio-btn {
-  width: 93px;
   height: 38px;
   background: var(--btn_gray);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav_gray);
@@ -89,7 +87,6 @@ header {
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
-  width: 121px;
   background: var(--blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -107,6 +104,7 @@ header {
 .banner-background {
   width: 100%;
   background: var(--foot_gray);
+  height: 600px;
 }
 .call-to-action {
   font-weight: 900;
@@ -181,7 +179,7 @@ header {
   background: var(--foot_gray);
   padding-top: 60px;
 }
-.bottom .container > h3 {
+.footer-logo {
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -193,7 +191,7 @@ header {
   letter-spacing: 0.03em;
   margin: 0 auto;
 }
-.footer-address > p {
+.footer-paragraph {
   margin: 0;
 }
 .footer-address .link {
@@ -211,7 +209,7 @@ header {
 }
 header > .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .what-we-do-background {
   padding-top: 0;
@@ -248,18 +246,20 @@ header > .container {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin-top: 106px;
+  margin-bottom: 106px;
 }
 .txt-section {
   display: flex;
   gap: 30px;
   padding: 0;
 }
-.txt-section > li {
+.txt-list {
   font-size: 14px;
   line-height: 24px;
   height: 101px;
 }
-.txt-section > li > p {
+.txt-section-paragraph {
   margin: 10px auto;
 }
 .our-team-background {
@@ -290,11 +290,11 @@ header > .container {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card > img {
+.team-img {
   width: 270px;
   height: 260px;
 }
-.team-card > figcaption {
+.team-caption {
   margin: 30px auto;
   text-align: center;
 }
@@ -319,16 +319,16 @@ header > .container {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.portfolio-img > figure {
+.portfolio-fig {
   margin: 0 auto;
   padding: 0;
 }
-.portfolio-img > figure > img {
+.portfolio-fig-img {
   width: 100%;
 }
-.portfolio-img > figure > figcaption {
+.portfolio-caption {
   margin: 20px 24px;
 }
-.portfolio-img > figure > figcaption > p {
+.portfolio-paragraph {
   margin: 0 auto;
 }
