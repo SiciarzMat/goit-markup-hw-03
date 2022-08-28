@@ -7,7 +7,7 @@
   --btn_gray: #f5f4fa;
   --foot_gray: #2f303a;
 }
-body {
+.body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--gray);
   background-color: var(--white);
@@ -211,7 +211,7 @@ header > .container {
   display: flex;
   justify-content: space-between;
 }
-.what-we-do-background {
+.section-no-padding {
   padding-top: 0;
 }
 .what-we-do {
@@ -262,7 +262,7 @@ header > .container {
 .txt-section-paragraph {
   margin: 10px auto;
 }
-.our-team-background {
+.section-gray {
   width: 100%;
   background: var(--btn_gray);
 }
